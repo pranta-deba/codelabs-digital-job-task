@@ -1,8 +1,8 @@
 
 const Stat = () => {
     return (
-        <div className="md:max-w-[1440px] md:w-[1160px] mx-auto flex flex-col md:flex-row justify-between mb-12 gap-3 mt-8 px-2">
-            <div className="rounded-[24px] border-[1px] border-[#02004333] p-5 bg-[#FBFBFB] w-full md:max-w-[216px] space-y-3 text-center md:text-start">
+        <div  className="md:max-w-[1440px] md:w-[1160px] mx-auto flex flex-col md:flex-row justify-between mb-12 gap-3 mt-8 px-2">
+            <div data-aos="fade-up" className="rounded-[24px] border-[1px] border-[#02004333] p-5 bg-[#FBFBFB] w-full md:max-w-[216px] space-y-3 text-center md:text-start">
                 <h1 className="text-4xl font-bold">90%</h1>
                 <p className="text-gray-500 font-normal text-[14px]" >Patient satisfaction rate, reflecting our commitment.</p>
                 <div className="flex justify-center items-center">
@@ -13,7 +13,7 @@ const Stat = () => {
                 </svg>
                 </div>
             </div>
-            <div className="flex-grow clear-start space-y-3 flex flex-col">
+            <div data-aos="fade-up" className="order-first md:order-none flex-grow clear-start space-y-3 flex flex-col">
                 <h1 className="text-3xl md:text-5xl font-semibold text-center">Comprehensive Care for Every Patient</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-2">
                     <div className="rounded-[24px] border-[1px] border-[#02004333] p-5 h-full bg-[#FBFBFB] space-y">
@@ -103,7 +103,7 @@ const Stat = () => {
                     </div>
                 </div>
             </div>
-            <div className="rounded-[24px] border-[1px] border-[#02004333] p-5 bg-[#FBFBFB] w-full md:max-w-[216px] space-y-3 text-center md:text-start">
+            <div data-aos="fade-up" className="rounded-[24px] border-[1px] border-[#02004333] p-5 bg-[#FBFBFB] w-full md:max-w-[216px] space-y-3 text-center md:text-start">
                 <h1 className="text-4xl font-bold">50+</h1>
                 <p className="text-gray-500 font-normal text-[14px]">Free lession video
                     for patient</p>

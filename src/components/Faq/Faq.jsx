@@ -2,7 +2,7 @@ import Button1 from "../Buton/Button1";
 
 const Faq = () => {
     return (
-        <div className="md:max-w-[1440px] md:w-[1160px] mx-auto mt-20 px-2 space-y-3 mb-20">
+        <div  data-aos="fade-up" className="md:max-w-[1440px] md:w-[1160px] mx-auto mt-20 px-2 space-y-3 mb-20">
             <Button1 text="Faq" />
             <h1 className="text-4xl font-semibold">Frequntly Asked Question</h1>
             <div>

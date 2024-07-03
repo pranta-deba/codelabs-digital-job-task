@@ -5,3 +5,11 @@
 *{
     font-family: "Inter", sans-serif;
 }
+html{
+    background: linear-gradient(
+        to bottom,
+        #E1F5FF 10%,
+        #FBFBFB 30%,
+        #E1F5FF 90%
+    );
+}

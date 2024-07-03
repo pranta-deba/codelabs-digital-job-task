@@ -2,12 +2,12 @@ import Button1 from "../Buton/Button1";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
+import { Pagination,Autoplay } from 'swiper/modules';
 
 
 const Testimonial = () => {
     return (
-        <div className="md:max-w-[1440px] md:w-[1160px] mx-auto mt-20 px-2 space-y-3 mb-20">
+        <div data-aos="fade-up" className="md:max-w-[1440px] md:w-[1160px] mx-auto mt-20 px-2 space-y-3 mb-20">
             <Button1 text="Testimonial" />
             <h1 className="text-4xl font-semibold">What they say about us</h1>
             <div className="flex justify-center items-center">
@@ -17,6 +17,10 @@ const Testimonial = () => {
                     pagination={{
                         clickable: true,
                     }}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                      }}
                     breakpoints={{
                         640: {
                             slidesPerView: 1,
@@ -31,11 +35,11 @@ const Testimonial = () => {
                             spaceBetween: 50,
                         },
                     }}
-                    modules={[Pagination]}
+                    modules={[Pagination,Autoplay]}
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <div className="card w-96">
+                        <div className="card ">
                             <div className="card-body">
                                 <h2 className="text-xl font-semibold">Expertise and Compassion Combined</h2>
                                 <p className="text-[#4D4C7B] font-normal text-[12px]">I cant thank enough for their exceptional care. The doctors and staff showed incredible expertise and compassion throughout my treatment journey. I felt truly cared for every step of the way.</p>
@@ -60,7 +64,7 @@ const Testimonial = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="card w-96 ">
+                        <div className="card">
                             <div className="card-body">
                                 <h2 className="text-xl font-semibold">Life-Saving Care, Life-Changing Experience</h2>
                                 <p className="text-[#4D4C7B] font-normal text-[12px]">My experience at [Healthcare Provider Name] was life-changing. The prompt and accurate diagnosis, coupled with the advanced treatments they provided, saved my life.</p>
@@ -85,7 +89,7 @@ const Testimonial = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="card w-96">
+                        <div className="card">
                             <div className="card-body">
                                 <h2 className="text-xl font-semibold">A Partner in Health and
                                 Wellness</h2>
@@ -111,7 +115,7 @@ const Testimonial = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="card w-96">
+                        <div className="card">
                             <div className="card-body">
                                 <h2 className="text-xl font-semibold">Expertise and Compassion Combined</h2>
                                 <p className="text-[#4D4C7B] font-normal text-[12px]">I cant thank enough for their exceptional care. The doctors and staff showed incredible expertise and compassion throughout my treatment journey. I felt truly cared for every step of the way.</p>
@@ -136,7 +140,7 @@ const Testimonial = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="card w-96 ">
+                        <div className="card">
                             <div className="card-body">
                                 <h2 className="text-xl font-semibold">Life-Saving Care, Life-Changing Experience</h2>
                                 <p className="text-[#4D4C7B] font-normal text-[12px]">My experience at [Healthcare Provider Name] was life-changing. The prompt and accurate diagnosis, coupled with the advanced treatments they provided, saved my life.</p>
