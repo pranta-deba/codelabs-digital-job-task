@@ -28,7 +28,7 @@ const Service = () => {
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-10">
                 <div className="relative space-y-3 md:space-y-0">
                     <img src="./Rectangle4.png" alt="" className="w-full rounded-[30px]" />
                     <div className="w-full absolute left-0 bottom-0 md:left-4 md:bottom-4 bg-[#343268] bg-opacity-70 text-white p-8 rounded-[32px] md:max-w-[395px] space-y-4 flex flex-col md:flex-row gap-4 items-end">
