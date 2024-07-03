@@ -2,6 +2,7 @@
 import './App.css'
 import Banner from './components/Banner/Banner'
 import Faq from './components/Faq/Faq'
+import Footer from './components/Footer/Footer'
 import Help from './components/Help/Help'
 import Navbar from './components/Navbar/Navbar'
 import Offer from './components/Offer/Offer'
@@ -21,6 +22,7 @@ function App() {
       <Testimonial />
       <Faq />
       <Offer />
+      <Footer />
     </div>
   )
 }
