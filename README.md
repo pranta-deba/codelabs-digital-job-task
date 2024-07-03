@@ -4,4 +4,4 @@
 
 
 
-- [Live Demo](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
+- [Live Demo](https://doc-plus-beta.netlify.app/)

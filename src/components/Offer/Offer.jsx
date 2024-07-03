@@ -1,8 +1,15 @@
+import bg from "../../assets/offers.png"
 const Offer = () => {
-    return ( 
-        <div  data-aos="fade-up" className="md:max-w-[1440px] md:w-[1160px] mx-auto px-2 md:gap-12 mt-10 ">
-            <div className="bg-[url('./offers.png')] rounded-[32px] overflow-hidden">
-                <div className="py-10 md:py-20 bg-[#020043] bg-opacity-70 px-4 md:px-20 text-white space-y-3">
+    return (
+        <div data-aos="fade-up" className="md:max-w-[1440px] md:w-[1160px] mx-auto px-2 md:gap-12 mt-10 ">
+            <div style={{
+                backgroundImage: `url('${bg}')`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat'
+
+            }} className="rounded-[32px] overflow-hidden ">
+                <div className="py-10 md:py-20 px-4 md:px-20 bg-[#02004399] text-white space-y-3 z-10">
                     <div className="flex justify-end">
                         <svg xmlns="http://www.w3.org/2000/svg" width="125" height="33" viewBox="0 0 125 33" fill="none">
                             <path d="M30.6393 16.517C30.6393 18.0534 30.4344 19.5166 30.0247 20.9066C29.615 22.282 29.0371 23.555 28.2909 24.7256C27.5593 25.8961 26.6813 26.9569 25.6571 27.908C24.6329 28.8444 23.4989 29.6419 22.2552 30.3003C21.0261 30.9588 19.7019 31.4709 18.2826 31.8367C16.8779 32.1878 15.4294 32.3634 13.9369 32.3634H0V0.758436H13.9369C15.4294 0.758436 16.8779 0.934019 18.2826 1.28519C19.6873 1.63635 21.0042 2.14115 22.2332 2.79959C23.4769 3.4434 24.6109 4.23352 25.6352 5.16997C26.674 6.10641 27.5593 7.15991 28.2909 8.33047C29.0371 9.48639 29.615 10.7594 30.0247 12.1494C30.4344 13.5248 30.6393 14.9807 30.6393 16.517ZM21.7943 16.517C21.7943 14.8051 21.5821 13.181 21.1578 11.6446C20.7481 10.0936 20.1043 8.73284 19.2264 7.56229C18.3485 6.39173 17.2291 5.4626 15.8683 4.7749C14.5222 4.0872 12.9054 3.74335 11.0179 3.74335H8.71332V29.2907H11.0179C12.8761 29.2907 14.4783 28.9469 15.8244 28.2592C17.1852 27.5568 18.3046 26.6204 19.1825 25.4498C20.075 24.2646 20.7335 22.9039 21.1578 21.3675C21.5821 19.8312 21.7943 18.2143 21.7943 16.517Z" fill="#FFFFF5" />
