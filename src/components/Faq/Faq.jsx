@@ -21,28 +21,28 @@ const Faq = () => {
                             <p className="text-[#343268] text-[14px] mt-3">You can make an appointment by calling our office at [phone number], using our online appointment scheduling system, or visiting our clinic in person. We also offer telehealth appointments for your convenience.</p>
                         </div>
                     </div>
-                    <div className="collapse collapse-arrow join-item border-base-300 border">
+                    <div className="collapse collapse-arrow join-item border-b">
                         <input type="radio" name="my-accordion-4" />
                         <div className="collapse-title text-xl font-medium">Do you accept insurance?</div>
                         <div className="collapse-content">
                             <p>Yes, we accept most major insurance plans. Please contact our office or check our website for a list of accepted insurance providers. If you have any questions about your coverage, our billing department is here to help.</p>
                         </div>
                     </div>
-                    <div className="collapse collapse-arrow join-item border-base-300 border">
+                    <div className="collapse collapse-arrow join-item border-b">
                         <input type="radio" name="my-accordion-4" />
                         <div className="collapse-title text-xl font-medium">What should I bring to my first appointment?</div>
                         <div className="collapse-content">
                             <p>For your first appointment, please bring a valid ID, your insurance card, a list of current medications, and any relevant medical records. If you have specific concerns or symptoms, note them down to discuss with your doctor.</p>
                         </div>
                     </div>
-                    <div className="collapse collapse-arrow join-item border-base-300 border">
+                    <div className="collapse collapse-arrow join-item border-b">
                         <input type="radio" name="my-accordion-4" />
                         <div className="collapse-title text-xl font-medium">How do I access my medical records?</div>
                         <div className="collapse-content">
                             <p>You can access your medical records through our secure patient portal. If you need assistance setting up or accessing your account, please contact our office for support.</p>
                         </div>
                     </div>
-                    <div className="collapse collapse-arrow join-item border-base-300 border">
+                    <div className="collapse collapse-arrow join-item border-b">
                         <input type="radio" name="my-accordion-4" />
                         <div className="collapse-title text-xl font-medium">How do I refill my prescription?</div>
                         <div className="collapse-content">
